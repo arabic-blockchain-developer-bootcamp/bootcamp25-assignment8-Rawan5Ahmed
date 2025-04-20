@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 // make this contract inherits from: ERC721URIStorage contract
 contract Assignment8 is ERC721URIStorage,Ownable{
     // declare a private uint called _tokenIdCounter
-    uint256 _tokenIdCounter private;
+    uint256 private _tokenIdCounter ;
     // pass name and symbol of the nft token collection
     constructor() ERC721("rawan","rwn") {
         
